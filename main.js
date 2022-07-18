@@ -100,7 +100,6 @@ window.onscroll = function() {
         rates.forEach(e => {
             e.style.width = e.dataset.width;
         })
-        console.log("dsdj")
     }
 }
 
