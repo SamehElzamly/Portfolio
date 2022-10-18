@@ -124,6 +124,13 @@ buttons[2].onclick = () => {
         projects[3].style.display = "block";
     
     }
+buttons[3].onclick = () => {
+        projects[0].style.display = "none";
+        projects[1].style.display = "none";
+        projects[2].style.display = "none";
+        projects[3].style.display = "block";
+    
+    }
     ////target blank
 let portfolio = document.querySelectorAll("section a");
 let social = document.querySelectorAll("footer a");
