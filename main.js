@@ -112,7 +112,6 @@ buttons[0].onclick = () => {
     })
 }
 buttons[1].onclick = () => {
-    projects[3].style.display = "none";
     projects[2].style.display = "none";
     projects[0].style.display = "block";
     projects[1].style.display = "block";
@@ -121,14 +120,6 @@ buttons[2].onclick = () => {
         projects[0].style.display = "none";
         projects[1].style.display = "none";
         projects[2].style.display = "block";
-        projects[3].style.display = "block";
-    
-    }
-buttons[3].onclick = () => {
-        projects[0].style.display = "none";
-        projects[1].style.display = "none";
-        projects[2].style.display = "none";
-        projects[3].style.display = "block";
     
     }
     ////target blank
