@@ -45,14 +45,6 @@
                 </ul>
             </div>
         </div>
-        <div class="arrow">
-            <div>
-                <i class="fa-solid fa-arrow-left"></i>
-            </div>
-            <div>
-                <i class="fa-solid fa-arrow-right"></i>
-            </div>
-        </div>
         <div class="dots">
             <div></div>
             <div class="activeDot"></div>
@@ -60,7 +52,10 @@
         </div>
         <div class="text" data-left="0" data-top="25%" data-width="82%">
             <h1>Welcome to my portfolio</h1>
-            <p>I'm Sameh Ashraf Elzamly, i'm front-end developer, undergraduate student at faculty of sceince Benha universty and i have started in web development since 2020.</p>
+            <p>Motivated and passionate Back-End developer with strong experience in both freelance and 
+            official environments. I hold a degree in Computer Science from Benha University, and I’ve 
+            worked on several real-life projects. Currently working part-time at Bo Chat Company as full 
+            stack developer using NodeJS, ExpressJS, MongoDB ,HTML,CSS and JavaScript.</p>
         </div>
     </header>
     <section>
@@ -68,11 +63,18 @@
             <h1>Services</h1>
             <div class="services">
                 <div>
-                    <div><i class="fa-solid fa-code"></i></i>
-                    </div>
+                    <div><i class="fa-solid fa-code"></i></div>
                     <div>
                         <h2>Develop</h2>
                         <p>create profissional website with clean code and high performance and fully responsive on all devices.</p>
+                    </div>
+                </div>
+                <div>
+                    <div><i class="fa-solid fa-shield"></i>
+                    </div>
+                    <div>
+                        <h2>Secure APIs</h2>
+                        <p>Design and implement secure APIs with authentication, authorization, encryption, and protection against common vulnerabilities.</p>
                     </div>
                 </div>
                 <div>
@@ -123,6 +125,7 @@
                 <li>All</li>
                 <li>HTML&CSS</li>
                 <li>fornt end</li>
+                <li>back end</li>
             </ul>
             <div class="work container">
                 <div>
@@ -149,6 +152,27 @@
                     </a>
                     <p>first website after learning react.js.</p>
                 </div>
+                <div>
+                    <a href="https://bo-eg.site"><img src="/IMAGE/Capture.PNG" alt="bo-chat project">
+
+                    </a>
+                    <p>portfolio for bo-chat company</p>
+                </div>
+                <div>
+                    <div class="download-app" >
+                        <div>
+
+                            <a href="https://play.google.com/store/apps/details?id=com.pandaoracle.bochat&pcampaignid=web_share&pli=1"><i class="fa-brands fa-google-play"></i>Googl Play</a>
+                        </div>
+                        <div>
+
+                            <a href="https://apps.apple.com/app/id6749073096"><i class="fa-brands fa-apple"> </i>App Store</a>
+                        </div>
+                    </div>
+                    <div class="layout"></div>
+                    <img src="/IMAGE/bo.jpg" class="bo-chat" alt="bo-chat project">
+                    <p>secure api's of bo-chat app</p>
+                </div>
             </div>
         </div>
         <div id="About">
@@ -156,20 +180,20 @@
             <img src="/IMAGE/screens.png" alt="multi screen">
             <div class="statics">
                 <div>
-                    <div>
+                    <div class="projects-num">
                         <i class="fa-solid fa-circle-check"></i>
-                        <span>5</span>
+                        <span>0</span>
                         <p>completed projects</p>
                     </div>
-                    <div>
+                    <div class="certificates-num">
                         <i class="fa-solid fa-award"></i>
-                        <span>3</span>
+                        <span>0</span>
                         <p>certificates</p>
                     </div>
                 </div>
             </div>
             <div class="skills">
-                <h1>Programming & Markup languages</h1>
+                <h1>Skills</h1>
                 <div>
                     <p>HTML-85%</p>
                     <div>
@@ -177,15 +201,15 @@
                     </div>
                 </div>
                 <div>
-                    <p>CSS-95%</p>
+                    <p>CSS-90%</p>
                     <div>
-                        <div data-width="95%"></div>
+                        <div data-width="90%"></div>
                     </div>
                 </div>
                 <div>
-                    <p>Java Script-85%</p>
+                    <p>Java Script|| Nodejs -95%</p>
                     <div>
-                        <div data-width="85%"></div>
+                        <div data-width="95%"></div>
                     </div>
                 </div>
                 <div>
@@ -195,21 +219,38 @@
                     </div>
                 </div>
                 <div>
-                    <p>Python-80%
+                    <p>c#-80%
                     </p>
                     <div>
                         <div data-width="80%"></div>
+                    </div>
+                </div>
+                <div>
+                    <p>SQLServer-75%
+                    </p>
+                    <div>
+                        <div data-width="85%"></div>
+                    </div>
+                </div>
+                <div>
+                    <p>MongoDB-75%
+                    </p>
+                    <div>
+                        <div data-width="85%"></div>
                     </div>
                 </div>
             </div>
         </div>
         <div id="Contact" class="container">
             <h1>Contact us</h1>
-            <form name="contact" netlify>
-                <input type="text" placeholder="Name" name="name">
-                <input type="email" id="email" placeholder="Email" name="email">
-                <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..." required></textarea>
-                <button>Send the message</button>
+            <form name="contact" method="POST" data-netlify="true">
+            <input type="hidden" name="form-name" value="contact">
+            
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" id="email" placeholder="Email" required>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here..." required></textarea>
+            
+            <button type="submit">Send the message</button>
             </form>
         </div>
     </section>
